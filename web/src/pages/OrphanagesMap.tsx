@@ -27,11 +27,11 @@ const OrphanagesMap: React.FC = () => {
       </aside>
 
       <Map
-        center={[-15.7966153, -47.8770008]}
+        center={[-5.0692614,-42.7564659]}
         zoom={15}
         style={{ width: '100%', height: '100%' }}
       >
-        <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
+        <TileLayer url={`https://api.mapbox.com/styles/v1/mapbox/dark-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`} />
       </Map>
 
       <Link to="" className="create-orphanage">
